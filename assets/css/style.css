@@ -1061,8 +1061,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .modal-content {
     position: relative;
     margin: auto;
-    padding: 20px;
-    width: 80%;
+    /* padding: 20px; */
+    width: 100%;
     max-width: 700px;
     background: white;
     border-radius: 8px;
@@ -1121,4 +1121,11 @@ button.prev:hover {
 }
 button.next:hover {
     background-color: white;
+}
+
+.carousel-indicators .active {
+    width: 0px;
+    height: 0px;
+    margin: 0;
+    background-color: #fff;
 }
