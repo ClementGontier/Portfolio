@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
         { elementId: 'cert1', pdfUrl: 'assets/images/Certifications/Certification_ANSSI_MOOC_CYBER_Clément_Gontier.pdf' },
         { elementId: 'cert2', pdfUrl: 'assets/images/Certifications/attestation_CNIL.pdf' },
         { elementId: 'cert3', pdfUrl: 'assets/images/OpenClassroomsCours.png' },
-        { elementId: 'cert4', pdfUrl: 'assets/images/BadgeCyber.png' }
+        { elementId: 'cert4', pdfUrl: 'assets/images/BadgeCyber.png' },
+        { elementId: 'cert5', pdfUrl: 'assets/images/Certifications/attestation-pix-20250114.pdf' }
     ];
 
     // Ajouter des gestionnaires pour chaque certificat

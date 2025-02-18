@@ -782,8 +782,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 /*hm-foot-icon*/
 .hm-foot-icon {
-   
+    display: flex
+;
 }
+
+
 .hm-foot-icon ul li{float:left;}
 .hm-foot-icon ul li>a {
     color: #636a82;
@@ -855,7 +858,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 #single-about-add-info-CV{
     background-color: #000;
 }
-button{
+.buttonCV{
     background-color: rgb(0, 183, 255);
     color: white;
     height: 60px;
