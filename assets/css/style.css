@@ -1129,3 +1129,7 @@ button.next:hover {
     margin: 0;
     background-color: #fff;
 }
+
+.modal-dialog{
+    width: 768px;
+}
