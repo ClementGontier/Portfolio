@@ -1434,3 +1434,16 @@ button.next:hover {
 .col-sm {display: flex
     ;
         justify-content: center;}
+
+            /* Add this to your style.css or in a style tag in the head */
+    .max-width-container {
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+    
+    @media (min-width: 1920px) {
+        section > .container {
+            width: 1600px;
+            max-width: 100%;
+        }
+    }

@@ -1,0 +1,165 @@
+/* Navbar Responsive CSS */
+
+/* Base navbar styles */
+nav.navbar.bootsnav {
+    background-color: #fff;
+    border-bottom: transparent;
+    box-shadow: 0 3px 15px rgba(0,0,0,.2);
+}
+
+/* Brand logo */
+nav.navbar.bootsnav .navbar-brand {
+    display: inline-block;
+    color: rgb(0, 211, 255);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 33px 0px 57px;
+    text-transform: uppercase;
+}
+
+/* Navigation links */
+nav.navbar.bootsnav ul.nav > li > a {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: 0.3s linear;
+    padding: 35px 20px;
+}
+
+/* Dark mode toggle in navbar */
+.dark-mode-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Large screens (desktops) */
+@media (min-width: 1200px) {
+    .navbar-container {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+    
+    nav.navbar.bootsnav ul.nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* Medium screens (tablets and small desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    nav.navbar.bootsnav ul.nav > li > a {
+        padding: 35px 15px;
+        font-size: 14px;
+    }
+    
+    nav.navbar.bootsnav .navbar-brand {
+        font-size: 18px;
+    }
+}
+
+/* Small screens (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    nav.navbar.bootsnav .navbar-brand {
+        padding: 20px 15px;
+        font-size: 18px;
+    }
+    
+    nav.navbar.bootsnav ul.nav > li > a {
+        padding: 20px 10px;
+        font-size: 14px;
+    }
+    
+    .dark-mode-toggle {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+/* Mobile screens */
+@media (max-width: 767px) {
+    /* Adjust navbar header */
+    nav.navbar.bootsnav .navbar-header {
+        padding-right: 0;
+    }
+    
+    /* Adjust navbar brand */
+    nav.navbar.bootsnav .navbar-brand {
+        padding: 15px;
+        font-size: 18px;
+        max-width: 75%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    /* Adjust navbar toggle */
+    nav.navbar.bootsnav .navbar-toggle {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-right: 15px;
+    }
+    
+    /* Adjust navbar collapse */
+    nav.navbar.bootsnav .navbar-collapse.collapse {
+        display: none !important;
+    }
+    
+    nav.navbar.bootsnav .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    
+    /* Adjust navbar nav */
+    nav.navbar.bootsnav .navbar-nav {
+        float: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav.navbar.bootsnav .navbar-nav > li {
+        float: none;
+    }
+    
+    nav.navbar.bootsnav ul.nav > li > a {
+        padding: 15px 20px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+    
+    /* Position dark mode toggle */
+    .dark-mode-container {
+        position: absolute;
+        top: 15px;
+        right: 60px;
+    }
+    
+    .dark-mode-toggle {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .dark-mode-toggle i {
+        font-size: 16px;
+    }
+    
+    /* Fix navbar collapse height */
+    .navbar-collapse {
+        max-height: 80vh;
+        overflow-y: auto;
+    }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+    nav.navbar.bootsnav .navbar-brand {
+        font-size: 16px;
+        max-width: 65%;
+    }
+    
+    .dark-mode-container {
+        right: 55px;
+    }
+    
+    .dark-mode-toggle {
+        width: 30px;
+        height: 30px;
+    }
+}

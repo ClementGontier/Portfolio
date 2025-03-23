@@ -1,0 +1,128 @@
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Header styles */
+body.dark-mode .navbar-default {
+    background-color: #1e1e1e !important;
+}
+
+body.dark-mode .navbar-brand, 
+body.dark-mode nav.navbar.bootsnav ul.nav > li > a {
+    color: #e0e0e0;
+}
+
+body.dark-mode nav.navbar.bootsnav ul.nav > li > a:hover,
+body.dark-mode nav.navbar.bootsnav ul.nav > li > a:focus,
+body.dark-mode nav.navbar.bootsnav ul.nav > li.active>a {
+    color: rgb(0, 211, 255);
+}
+
+/* Section backgrounds */
+body.dark-mode .about,
+body.dark-mode .skills,
+body.dark-mode .portfolio,
+body.dark-mode .profiles {
+    background-color: #121212;
+}
+
+body.dark-mode .BTSSIO,
+body.dark-mode .contact {
+    background-color: #1e1e1e;
+}
+
+/* Text colors */
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode h3, 
+body.dark-mode h4, 
+body.dark-mode h5, 
+body.dark-mode h6 {
+    color: #e0e0e0;
+}
+
+body.dark-mode p {
+    color: #b0b0b0;
+}
+
+/* Section headings */
+body.dark-mode .section-heading h2 {
+    border-bottom: 1px solid #444;
+}
+
+/* About section */
+body.dark-mode .single-about-txt p {
+    border-bottom: 1px solid #444;
+}
+
+/* Skills section */
+body.dark-mode .progress {
+    background: #333;
+}
+
+/* Project items */
+body.dark-mode .project-item {
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .project-slide-content {
+    background-color: rgba(30, 30, 30, 0.9);
+}
+
+body.dark-mode .project-carousel-nav {
+    background-color: #1e1e1e;
+}
+
+/* Modal backgrounds */
+body.dark-mode .cert-modal-container,
+body.dark-mode .project-modal-container {
+    background-color: #1e1e1e;
+}
+
+/* Footer */
+body.dark-mode .footer-copyright {
+    background-color: #1e1e1e;
+}
+
+/* Toggle button */
+.dark-mode-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid rgb(0, 211, 255);
+    color: rgb(0, 211, 255);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 15px;
+}
+
+.dark-mode-toggle:hover {
+    background: rgba(0, 211, 255, 0.1);
+}
+
+.dark-mode-toggle i {
+    font-size: 18px;
+}
+
+/* Adjust the toggle position in navbar */
+.dark-mode-container {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+@media (max-width: 767px) {
+    .dark-mode-container {
+        position: absolute;
+        top: 15px;
+        right: 70px;
+    }
+}
+
