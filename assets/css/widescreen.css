@@ -1,0 +1,142 @@
+/* Styles pour les grands écrans (1440px et plus) */
+@media (min-width: 1440px) {
+    .container {
+      max-width: 1320px;
+      width: 80%;
+    }
+    
+    /* Ajustement des sections principales */
+    #welcome-hero .header-text h2 {
+      font-size: 3.5rem;
+    }
+    
+    #welcome-hero .header-text p {
+      font-size: 1.5rem;
+    }
+    
+    /* Section À propos */
+    .about-content {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .single-about-txt h3 {
+      font-size: 1.8rem;
+    }
+    
+    .single-about-txt p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+    
+    /* Section BTS SIO */
+    .BTSSIO .single-about-txt h3 {
+      font-size: 2rem;
+    }
+    
+    .BTSSIO .single-about-add-info {
+      padding: 2rem;
+    }
+    
+    /* Section Compétences */
+    .skills .barWrapper {
+      margin-bottom: 30px;
+    }
+    
+    .skills .progressText {
+      font-size: 1.2rem;
+    }
+    
+    /* Section Projets */
+    .project-item {
+      margin-bottom: 40px;
+    }
+    
+    /* Section Certifications */
+    .certification-img {
+      max-width: 100%;
+      transition: transform 0.3s ease;
+    }
+    
+    .certification-img:hover {
+      transform: scale(1.05);
+    }
+    
+    /* Section Contact */
+    .contact-add-info {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    .single-contact-add-info {
+      margin: 0 20px;
+    }
+  }
+  
+  /* Styles pour les très grands écrans (1920px et plus) */
+  @media (min-width: 1920px) {
+    .container {
+      max-width: 1800px;
+      width: 85%;
+    }
+    
+    /* Ajustement des grilles pour les très grands écrans */
+    .row {
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+    
+    [class*="col-"] {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    
+    /* Amélioration de la lisibilité des textes */
+    body {
+      font-size: 18px;
+    }
+    
+    /* Ajustement des images de projet pour qu'elles ne soient pas trop petites */
+    .project-thumbnail {
+      min-height: 250px;
+      object-fit: cover;
+    }
+    
+    /* Amélioration de l'espacement des sections */
+    section {
+      padding: 100px 0;
+    }
+    
+    /* Ajustement des titres de section */
+    .section-heading h2 {
+      font-size: 3rem;
+      margin-bottom: 60px;
+    }
+  }
+  /* Ajout au fichier modal.css ou dans widescreen.css */
+@media (min-width: 1440px) {
+    .project-modal-container {
+      width: 80%;
+      max-width: 1400px;
+    }
+    
+    .project-slide-content h3 {
+      font-size: 2rem;
+    }
+    
+    .project-slide-content p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+    
+    .project-carousel img {
+      max-height: 70vh;
+      object-fit: contain;
+    }
+    
+    .cert-modal-container {
+      width: 80%;
+      max-width: 1200px;
+    }
+  }
