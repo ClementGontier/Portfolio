@@ -9,19 +9,6 @@ font-family: 'Poppins', sans-serif;
 ==================================== */
 
 
-/*=========== TABLE OF CONTENTS ===========
-1.  General css (Reset code)
-2.  Header
-3.  Welcome-hero
-4.  About me 
-5.  Education
-6.  Skill
-7.  Experience
-8.  Profiles
-9.  Portfolio
-10. Clients
-11. Contact
-
 /*-------------------------------------
 		1.General css (Reset code)
 --------------------------------------*/
@@ -666,24 +653,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     transform:scale(1);
     top:0;
 }/*.isotope-overlay*/
-
-/*-------------------------------------
-        10. Clients
---------------------------------------*/
-.clients {padding-top: 50px;}
-.clients-area {
-    display: flex;
-    align-items: center;
-    height: 250px;
-}
-.clients-area .item {padding: 0 25px;}
-
-.clients .clients-area .owl-carousel .owl-item img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius:0;
-}
 
 /*-------------------------------------
         11. Contact
