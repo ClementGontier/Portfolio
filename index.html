@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,13 +9,15 @@
     <title>Clément Gontier - Frontend Web Developer</title>
 
     <meta name="title" content="Clément Gontier - Frontend Web Developer">
-    <meta name="description" content="Clément Gontier - Passionate Frontend Web Developer creating beautiful and responsive websites. Explore my portfolio and blog for tech insights.">
+    <meta name="description"
+        content="Clément Gontier - Passionate Frontend Web Developer creating beautiful and responsive websites. Explore my portfolio and blog for tech insights.">
     <meta name="keywords" content="Clément Gontier, Web Developer, Frontend Developer, Portfolio, Blog, Tech Insights">
     <meta name="author" content="Clément Gontier">
 
     <!-- Open Graph Meta Tags / Facebook -->
     <meta property="og:title" content="Clément Gontier - Frontend Web Developer">
-    <meta property="og:description" content="Passionate about crafting beautiful and responsive websites. Explore my portfolio and blog for tech insights.">
+    <meta property="og:description"
+        content="Passionate about crafting beautiful and responsive websites. Explore my portfolio and blog for tech insights.">
     <meta property="og:image" content="assets/images/banner.webp">
     <meta property="og:url" content="/">
     <meta property="og:type" content="website">
@@ -22,7 +25,8 @@
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Clément Gontier - Frontend Web Developer">
-    <meta name="twitter:description" content="Passionate about crafting beautiful and responsive websites. Explore my portfolio and blog for tech insights.">
+    <meta name="twitter:description"
+        content="Passionate about crafting beautiful and responsive websites. Explore my portfolio and blog for tech insights.">
     <meta name="twitter:image" content="assets/images/banner.webp">
 
     <!-- Favicon -->
@@ -39,18 +43,18 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Preload Important resources -->
-    <link rel="preload" href="assets/css/aos.css" as="style" >
-    <link rel="preload" href="assets/css/owl.carousel.min.css" as="style" >
+    <link rel="preload" href="assets/css/aos.css" as="style">
+    <link rel="preload" href="assets/css/owl.carousel.min.css" as="style">
     <link rel="preload" href="assets/css/bootstrap.min.css" as="style" />
     <link rel="preload" href="assets/css/bootstrap-icons.min.css" as="style" />
     <link rel="preload" href="assets/css/style.css" as="style" />
 
     <!-- MS-Clarity Analytics -->
     <script type="text/javascript">
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
         })(window, document, "clarity", "script", "phycesbqlg");
     </script>
 
@@ -60,46 +64,69 @@
 
     <!-- Preloader -->
     <div id="preloader"></div>
-    
+
     <!-- Header -->
     <header id="header">
         <nav id="navbar" class="navbar navbar-expand-md">
             <div class="container">
                 <a href="/" class="navbar-brand logo">
-                    <span><</span>
-                    <span class="logo-name">Clément Gontier</span>
-                    <span>/></span>
-                </a>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarMenu">
-                    <div class="offcanvas-header">
-                        <a href="/" class="offcanvas-title navbar-brand logo" id="offcanvasNavbarMenu" data-aos="fade-down" data-aos-delay="600">
-                            <span><</span>
+                    <span>
+                        < </span>
                             <span class="logo-name">Clément Gontier</span>
                             <span>/></span>
+                </a>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarMenu">
+                    <div class="offcanvas-header">
+                        <a href="/" class="offcanvas-title navbar-brand logo" id="offcanvasNavbarMenu"
+                            data-aos="fade-down" data-aos-delay="600">
+                            <span>
+                                < </span>
+                                    <span class="logo-name">Clément Gontier</span>
+                                    <span>/></span>
                         </a>
-                        <button type="button" class="navbar-toggler" data-bs-dismiss="offcanvas" aria-label="Close Navigation Menu"><i class="bi bi-x toggle-icon"></i></button>
+                        <button type="button" class="navbar-toggler" data-bs-dismiss="offcanvas"
+                            aria-label="Close Navigation Menu"><i class="bi bi-x toggle-icon"></i></button>
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav nav-underline justify-content-end flex-grow-1">
-                            <li class="nav-item" data-aos="fade-down" data-aos-delay="500" data-bs-dismiss="offcanvas"><a href="#hero" class="nav-link active" aria-current="page">BTS SIO</a></li>
-                            <li class="nav-item" data-aos="fade-down" data-aos-delay="600" data-bs-dismiss="offcanvas"><a href="#skills" class="nav-link">Compétences</a></li>
-                            <li class="nav-item" data-aos="fade-down" data-aos-delay="700" data-bs-dismiss="offcanvas" ><a href="#about" class="nav-link">Certifications</a></li>
-                            <li class="nav-item" data-aos="fade-down" data-aos-delay="800" data-bs-dismiss="offcanvas"><a href="#projects" class="nav-link">Projects</a></li>
-                            <li class="nav-item" data-aos="fade-down" data-aos-delay="900" data-bs-dismiss="offcanvas"><a href="#blogs" class="nav-link">Formation</a></li>
-                            <li class="nav-item" data-aos="fade-down" data-aos-delay="900" data-bs-dismiss="offcanvas"><a href="#blogs" class="nav-link">Expériences Professionnelles</a></li>
-                            <li class="nav-item" data-aos="fade-down" data-aos-delay="1000" data-bs-dismiss="offcanvas"><a href="#contact" class="nav-link">Contact</a></li>
+                            <li class="nav-item" data-aos="fade-down" data-aos-delay="500" data-bs-dismiss="offcanvas">
+                                <a href="#things-i-love" class="nav-link active" aria-current="page">BTS SIO</a>
+                            </li>
+                            <li class="nav-item" data-aos="fade-down" data-aos-delay="900" data-bs-dismiss="offcanvas">
+                                <a href="#projects" class="nav-link">Formation</a>
+                            </li>
+                            <li class="nav-item" data-aos="fade-down" data-aos-delay="900" data-bs-dismiss="offcanvas">
+                                <a href="#blogs" class="nav-link">Expériences Professionnelles</a>
+                            </li>
+                            <li class="nav-item" data-aos="fade-down" data-aos-delay="800" data-bs-dismiss="offcanvas">
+                                <a href="#tools" class="nav-link">Projects</a>
+                            </li>
+                            <li class="nav-item" data-aos="fade-down" data-aos-delay="600" data-bs-dismiss="offcanvas">
+                                <a href="#skills" class="nav-link">Compétences</a>
+                            </li>
+                            <li class="nav-item" data-aos="fade-down" data-aos-delay="700" data-bs-dismiss="offcanvas">
+                                <a href="#about" class="nav-link">Certifications</a>
+                            </li>
+                            <li class="nav-item" data-aos="fade-down" data-aos-delay="1000" data-bs-dismiss="offcanvas">
+                                <a href="#contact" class="nav-link">Contact</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
-                <button class="btn border-0" id="switchTheme" data-aos="fade-down" data-aos-delay="600"><i class="bi bi-brightness-high-fill"></i></button>
-                <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle Navigation Menu" data-aos="fade-down" data-aos-delay="600"><i class="bi bi-list toggle-icon"></i></button>
+                <button class="btn border-0" id="switchTheme" data-aos="fade-down" data-aos-delay="600"><i
+                        class="bi bi-brightness-high-fill"></i></button>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                    aria-label="Toggle Navigation Menu" data-aos="fade-down" data-aos-delay="600"><i
+                        class="bi bi-list toggle-icon"></i></button>
             </div>
         </nav>
     </header>
 
     <!-- Hero -->
     <section id="hero">
-        <div class="container">     
+        <div class="container">
             <div class="row about-content">
                 <div class="col-lg-5 order-lg-2">
                     <div class="hero-portrait">
@@ -109,17 +136,29 @@
                 <div class="col-lg-7 order-lg-1 hero-content">
                     <span class="h3" data-aos="fade-up" data-aos-delay="0">Clément Gontier</span>
                     <h1 class="name" data-aos="fade-up" data-aos-delay="200"><span>Bienvenue sur mon Portfolio</h1>
-                    <button type="button" class="btn btn-sm mt-3 mb-3 btn-showcase"  data-aos="fade-up" data-aos-delay="400"><i class="bi bi-stars"></i> Étudiant en 2 ème année de BTS SIO option SLAM</button>
-                    <p class="tagline mb-3" data-aos="fade-up" data-aos-delay="600">Suite à mon parcours en baccalauréat général option mathématiques et NSI (Numérique et Science Informatiques), durant lequel j'ai découvert un échantillon de la programmation et du développement web, j'ai décidé d'intégrer cette formation car ce que j'avais appris me plaisait. De plus, je voulais obtenir un diplôme rapidement dans le cas où ce que j'allais découvrir ne me plairait plus.</p>
+                    <button type="button" class="btn btn-sm mt-3 mb-3 btn-showcase" data-aos="fade-up"
+                        data-aos-delay="400"><i class="bi bi-stars"></i> Étudiant en 2 ème année de BTS SIO option
+                        SLAM</button>
+                    <p class="tagline mb-3" data-aos="fade-up" data-aos-delay="600">Suite à mon parcours en baccalauréat
+                        général option mathématiques et NSI (Numérique et Science Informatiques), durant lequel j'ai
+                        découvert un échantillon de la programmation et du développement web, j'ai décidé d'intégrer
+                        cette formation car ce que j'avais appris me plaisait. De plus, je voulais obtenir un diplôme
+                        rapidement dans le cas où ce que j'allais découvrir ne me plairait plus.</p>
                     <div class="social-icons pb-2 pt-2 mb-2">
-                        <a href="https://github.com/itsvijaysingh/" target="_blank" class="github" data-aos="fade-up" data-aos-delay="620"><i class="bi bi-github"></i></a>
-                        <a href="https://www.instagram.com/__itsvj/" target="_blank" class="instagram" data-aos="fade-up" data-aos-delay="660"><i class="bi bi-instagram"></i></a>
-                        <a href="https://www.linkedin.com/itsvijaysingh/" target="_blank" class="linkedin" data-aos="fade-up" data-aos-delay="690"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/itsvijaysingh/" target="_blank" class="github" data-aos="fade-up"
+                            data-aos-delay="620"><i class="bi bi-github"></i></a>
+                        <a href="https://www.instagram.com/__itsvj/" target="_blank" class="instagram"
+                            data-aos="fade-up" data-aos-delay="660"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/itsvijaysingh/" target="_blank" class="linkedin"
+                            data-aos="fade-up" data-aos-delay="690"><i class="bi bi-linkedin"></i></a>
                     </div>
                     <div class="d-flex call-to-action">
-                        <a href="#contact" data-aos="fade-up" data-aos-delay="700"><button type="button" class="btn me-4 primary-bg-btn"><i class="bi bi-envelope"></i> Mon email</button></a>
-                        <a href="#projects" data-aos="fade-up" data-aos-delay="800"><button type="button" class="btn btn-light secondary-bg-btn">Mon CV <i class="bi bi-arrow-up-right-circle"></i></button></a>
-                    </div>                    
+                        <a href="#contact" data-aos="fade-up" data-aos-delay="700"><button type="button"
+                                class="btn me-4 primary-bg-btn"><i class="bi bi-envelope"></i> Mon email</button></a>
+                        <a href="#projects" data-aos="fade-up" data-aos-delay="800"><button type="button"
+                                class="btn btn-light secondary-bg-btn">Mon CV <i
+                                    class="bi bi-arrow-up-right-circle"></i></button></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -131,42 +170,48 @@
             <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">BTS SIO</span></h6>
             <h2 class="section-heading text-center">BTS SIO</h2>
             <div class="row justify-content-center pt-3 gy-4">
-                <div class="col-lg-12 col-md-6" data-aos="fade-up" >
+                <div class="col-lg-12 col-md-6" data-aos="fade-up">
                     <div class="card">
                         <div class="circle-container">
                             <div class="circle"><i class="bi bi-book"></i></div>
                         </div>
                         <div class="card-body">
-                            <p class="card-title">Le Brevet de Technicien Supérieur – Services Informatiques aux Organisations (BTS SIO)</p>
-                            <p class="card-text">Le BTS SIO (Services Informatiques aux Organisations) est une formation de deux ans qui prépare les étudiants à devenir des professionnels de l’informatique capables de gérer et de développer des solutions informatiques pour les entreprises. Cette formation se décline en deux options principales :</p>
+                            <p class="card-title">Le Brevet de Technicien Supérieur – Services Informatiques aux
+                                Organisations (BTS SIO)</p>
+                            <p class="card-text">Le BTS SIO (Services Informatiques aux Organisations) est une formation
+                                de deux ans qui prépare les étudiants à devenir des professionnels de l’informatique
+                                capables de gérer et de développer des solutions informatiques pour les entreprises.
+                                Cette formation se décline en deux options principales :</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6" data-aos="fade-up" >
+                <div class="col-lg-6 col-md-6" data-aos="fade-up">
                     <div class="card">
                         <div class="circle-container">
                             <div class="circle"><i class="bi bi-router-fill"></i></i></div>
                         </div>
                         <div class="card-body">
-                            <p class="card-title">Option A : SISR SOLUTIONS D’INFRASTRUCTURE, SYSTÈMES ET RÉSEAUX</p><br>
+                            <p class="card-title">Option A : SISR SOLUTIONS D’INFRASTRUCTURE, SYSTÈMES ET RÉSEAUX</p>
+                            <br>
                             <p class="card-text">Objectif : Former des techniciens supérieurs capables de gérer et de
                                 sécuriser les infrastructures informatiques, les systèmes et les réseaux.
                                 <br><br>
                                 Compétences acquises : Installation, configuration et maintenance des
                                 serveurs, gestion des réseaux, sécurité informatique, administration des
                                 systèmes d’exploitation, support utilisateur.
-                                <br><br>
+                                <br><br><br>
                                 Débouchés :<br>
                                 SISR : Administrateur système et réseau, technicien de maintenance
                                 informatique, technicien support utilisateur, technicien de sécurité
                                 informatique.
                                 <br><br>
                                 Poursuite d’études : Licence professionnelle, écoles d’ingénieurs, masters
-                                spécialisés en informatique.</p>
+                                spécialisés en informatique.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6" data-aos="fade-up" >
+                <div class="col-lg-6 col-md-6" data-aos="fade-up">
                     <div class="card">
                         <div class="circle-container">
                             <div class="circle"><i class="bi bi-code-slash"></i></div>
@@ -185,25 +230,954 @@
                                 maintenance logicielle, intégrateur de solutions logicielles.
                                 <br><br>
                                 Poursuite d’études : Licence professionnelle, écoles d’ingénieurs, masters
-                                spécialisés en informatique.</p>
+                                spécialisés en informatique.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+    <!-- formations -->
+    <section id="projects">
+        <div class="container">
+            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">My Journey</span></h6>
+            <h2 class="section-heading text-center">Formations</h2>
+            <div class="row justify-content-center pt-3 gy-4">
+                <div class="col-lg-12 col-md-6" data-aos="fade-up">
+                    <div class="card">
+                        <div class="circle-container">
+                            <div class="circle"><i class="bi bi-book"></i></div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">BTS SIO - Services Informatiques aux Organisations (SLAM)</p>
+                            <h5>2023 - 2025 | Lycée Bonaparte – Toulon</h5>
+                            <p class="card-text">Spécialité : Solutions Logicielles et Applications Métiers (SLAM).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-6" data-aos="fade-up">
+                    <div class="card">
+                        <div class="circle-container">
+                            <div class="circle"><i class="bi bi-book"></i></div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Baccalauréat Général - Mention Bien</p>
+                            <h5>2020 - 2023 | Institut Sainte Marie - La Seyne-sur-Mer</h5>
+                            <p class="card-text">Spécialités : Mathématiques et NSI (Numérique et Sciences
+                                Informatiques) +
+                                Physique-Chimie en Première.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-6" data-aos="fade-up">
+                    <div class="card">
+                        <div class="circle-container">
+                            <div class="circle"><i class="bi bi-book"></i></div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Diplôme national du brevet - Mention Très Bien</p>
+                            <h5>2016 - 2020 | Collège Font-de-Fillol - Six-Fours-les-Plages</h5>
+                            <p class="card-text">Brevet des collèges</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Formation Section -->
+    <!-- Blogs -->
+    <section id="blogs">
+        <div class="container">
+            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">Do I Write?</span></h6>
+            <h2 class="section-heading text-center">My Blogs</h2>
+            <p class="text-center muted-text mt-3 mb-4">From tech tips to gaming guides, here are some written pieces
+                that you can check out if you're interested.</p>
+            <div class="row justify-content-center gy-4" data-aos="fade-up" data-aos-delay="600">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card article-card">
+                        <div class="banner-container position-relative">
+                            <div class="position-absolute top-0 end-0">
+                                <span class="badge">Gaming</span>
+                            </div>
+                            <img src="https://gamesroid.com/wp-content/uploads/2023/10/How-to-Update-Township.webp"
+                                class="card-img-top banner" alt="How to Update Township Game">
+                        </div>
+                        <div class="card-body">
+                            <a href="https://gamesroid.com/how-to-update-township-game/"></a>
+                            <h6 class="card-title">How to Update Township Game – Guide for Every Platform!</h6></a>
+                            <p class="card-text description">Keep your Township updated and experience all the latest
+                                features.</p>
+                            <a href="https://gamesroid.com/how-to-update-township-game/" class="text-decoration-none"
+                                target="_blank"><span class="read-more">Read More <i
+                                        class="bi bi-arrow-up-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card article-card">
+                        <div class="banner-container position-relative">
+                            <div class="position-absolute top-0 end-0">
+                                <span class="badge">Gaming</span>
+                            </div>
+                            <img src="https://gamesroid.com/wp-content/uploads/2023/09/Popular-Mobile-Games.webp"
+                                class="card-img-top banner" alt="Most Popular Mobile Games in India">
+                        </div>
+                        <div class="card-body">
+                            <a href="https://gamesroid.com/most-popular-mobile-games-in-india/"></a>
+                            <h6 class="card-title">Most Popular Mobile Games in India- Android & iOS </h6></a>
+                            <p class="card-text description">Find out the top trendiest and most popular mobile games in
+                                India!</p>
+                            <a href="https://gamesroid.com/most-popular-mobile-games-in-india/"
+                                class="text-decoration-none" target="_blank"><span class="read-more">Read More <i
+                                        class="bi bi-arrow-up-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card article-card">
+                        <div class="banner-container position-relative">
+                            <div class="position-absolute top-0 end-0">
+                                <span class="badge">Gaming</span>
+                            </div>
+                            <img src="https://gamesroid.com/wp-content/uploads/2024/01/Discord-Banners.webp"
+                                class="card-img-top banner" alt="Best Discord Banners and GIFs">
+                        </div>
+                        <div class="card-body">
+                            <a href="https://gamesroid.com/best-discord-banners/"></a>
+                            <h6 class="card-title">100+ Best Discord Banners and GIFs</h6></a>
+                            <p class="card-text description">From anime, to aesthetics, cuteness to coolness, static to
+                                animated there's a for you.</p>
+                            <a href="https://gamesroid.com/best-discord-banners/" class="text-decoration-none"
+                                target="_blank"><span class="read-more">Read More <i
+                                        class="bi bi-arrow-up-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- Tools -->
+    <section id="tools" class="portfolio">
+        <div class="container">
+            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What I uses?</span></h6>
+            <h2 class="section-heading text-center">Projets</h2>
+            <p class="text-center muted-text mt-3 mb-4">Tech stack known? Here are tools that I runs:</p>
+            <div class="portfolio-details">
+                <div class="filter-buttons text-center">
+                    <button class="filter-btn" data-filter="all">Tous</button>
+                    <button class="filter-btn" data-filter="1ere-annee">1ère année</button>
+                    <button class="filter-btn" data-filter="2eme-annee">2ème année</button>
+                    <button class="filter-btn" data-filter="stage">Stage</button>
+                    <button class="filter-btn" data-filter="projets-personnels">Projets personnels</button>
+                </div>
+                <div class="container">
+                    <div class="portfolio-content">
+                        <div class="isotope">
+                            <div class="row">
+                                <!-- <h1><b>1ère année</b></h1> -->
+                                <div class="col-sm-4">
+                                    <div class="project-item" data-category="1ere-annee">
+                                        <div class="project-title">Nolark</div>
+                                        <img src="assets/images/test.avif" alt="Nolark - Site de casques moto" class="project-thumbnail" data-project="nolark" />
+                                        <div class="project-overlay">
+                                            <div class="project-info">
+                                                <h3>Nolark</h3>
+                                                <p>Site vitrine de vente de casques de moto</p>
+                                                <button class="view-project-btn" data-project="nolark">Voir le projet</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="project-item" data-category="1ere-annee">
+                                        <div class="project-title">Portfolio Amélia Pilou</div>
+                                        <img src="assets/images/apilou.jpg" alt="Portfolio Amélia Pilou"
+                                            class="project-thumbnail" data-project="apilou" />
+                                        <div class="project-overlay">
+                                            <div class="project-info">
+                                                <h3>Portfolio Amélia Pilou</h3>
+                                                <p>Site portfolio personnel</p>
+                                                <button class="view-project-btn" data-project="apilou">Voir le
+                                                    projet</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="project-item" data-category="1ere-annee">
+                                        <div class="project-title">Site Cinéma CMS</div>
+                                        <img src="assets/images/Joomla.png" alt="Site Cinéma CMS"
+                                            class="project-thumbnail" data-project="cinema-cms" />
+                                        <div class="project-overlay">
+                                            <div class="project-info">
+                                                <h3>Site Cinéma CMS</h3>
+                                                <p>Informations nouvelles sorties cinéma</p>
+                                                <button class="view-project-btn" data-project="cinema-cms">Voir le
+                                                    projet</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <!-- <h2><b>Stage</b></h2> -->
+                                <div class="col-sm col-xs-12">
+                                    <div class="project-item" data-category="stage">
+                                        <div class="project-title">Stage - Système d'archivage</div>
+                                        <img src="assets/images/logoE&S.png" alt="Stage E&S" class="project-thumbnail"
+                                            data-project="stage-es" />
+                                        <div class="project-overlay">
+                                            <div class="project-info">
+                                                <h3>Système d'archivage de bases de données</h3>
+                                                <p>Stage chez E&S</p>
+                                                <button class="view-project-btn" data-project="stage-es">Voir le
+                                                    projet</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <!-- <h1><b>2ème année</b></h1> -->
+                                <div class="col-sm-6">
+                                    <div class="project-item" data-category="2eme-annee">
+                                        <div class="project-title">GSB</div>
+                                        <img src="assets/images/gsblogo.png" alt="GSB" class="project-thumbnail" data-project="gsb" />
+                                        <div class="project-overlay">
+                                            <div class="project-info">
+                                                <h3>GSB</h3>
+                                                <p>Application de gestion des frais</p>
+                                                <button class="view-project-btn" data-project="gsb">Voir le projet</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <h1><b>2ème année</b></h1> -->
+                                <div class="col-sm-6">
+                                    <div class="project-item" data-category="2eme-annee">
+                                        <div class="project-title">CGB</div>
+                                        <img src="assets/images/CGB.png" alt="CGB" class="project-thumbnail" data-project="cgb" />
+                                        <div class="project-overlay">
+                                            <div class="project-info">
+                                                <h3>CGB</h3>
+                                                <p>API de virements et Application de gestion et suivi des virements</p>
+                                                <button class="view-project-btn" data-project="cgb">Voir le projet</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <!-- <h2><b>Stage</b></h2> -->
+                                <div class="col-sm col-xs-12">
+                                    <div class="project-item" data-category="stage">
+                                        <div class="project-title">Application d'administration des comptes assurés
+                                        </div>
+                                        <img src="assets/images/logoCNMSS.jpg" alt="CNMSS" class="project-thumbnail"
+                                            data-project="cnmss" />
+                                        <div class="project-overlay">
+                                            <div class="project-info">
+                                                <h3>Administration des comptes assurés</h3>
+                                                <p>Stage à la CNMSS</p>
+                                                <button class="view-project-btn" data-project="cnmss">Voir le
+                                                    projet</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <!-- <h1><b>Projets Personnels</b></h1> -->
+                                <div class="col-sm-4">
+                                    <div class="project-item" data-category="projets-personnels">
+                                        <div class="project-title">Portfolio</div>
+                                        <img src="assets/images/accueil0.jpg" alt="Portfolio" class="project-thumbnail"
+                                            data-project="portfolio" />
+                                        <div class="project-overlay">
+                                            <div class="project-info">
+                                                <h3>Portfolio</h3>
+                                                <p>Portfolio pour les épreuves de BTS</p>
+                                                <button class="view-project-btn" data-project="portfolio">Voir le
+                                                    projet</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="project-item" data-category="projets-personnels">
+                                        <div class="project-title">Exposé NSI Métaverse</div>
+                                        <img src="assets/images/accueil1.jpg.png" alt="Exposé NSI Métaverse"
+                                            class="project-thumbnail" data-project="metaverse" />
+                                        <div class="project-overlay">
+                                            <div class="project-info">
+                                                <h3>Exposé NSI Métaverse</h3>
+                                                <p>Site web pour un exposé en NSI</p>
+                                                <button class="view-project-btn" data-project="metaverse">Voir le
+                                                    projet</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="project-item" data-category="projets-personnels">
+                                        <div class="project-title">Devoir EMC Terminale</div>
+                                        <img src="assets/images/pageaccueil.png" alt="Devoir EMC Terminale"
+                                            class="project-thumbnail" data-project="emc" />
+                                        <div class="project-overlay">
+                                            <div class="project-info">
+                                                <h3>Devoir EMC Terminale</h3>
+                                                <p>Site web pour un devoir d'EMC</p>
+                                                <button class="view-project-btn" data-project="emc">Voir le
+                                                    projet</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="project-modal-overlay" id="projectModalOverlay">
+        <div class="project-modal-container">
+            <button class="project-close-modal" id="projectCloseModal">&times;</button>
+            <div class="project-carousel-container" id="nolark-project">
+                <div class="project-carousel">
+                    <div class="project-slide active">
+                        <div class="project-slide-content">
+                            <h3>Site vitrine de vente de casques de moto</h3>
+                            <p>Technologies utilisées : HTML5, CSS3, Javascript</p>
+                            <p>Ce projet consistait à créer un site web vitrine pour une entreprise fictive de vente de
+                                casques de moto. L'objectif était de mettre en pratique les connaissances en
+                                développement web front-end et de créer une interface utilisateur intuitive et
+                                responsive.</p>
+                            <p>Fonctionnalités principales :</p>
+                            <ul>
+                                <li>Présentation des différentes catégories de casques</li>
+                                <li>Affichage détaillé des produits</li>
+                                <li>Formulaire de contact</li>
+                                <li>Design responsive adapté à tous les appareils</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/accueilnolark.png" alt="Page d'accueil du site">
+                        <div class="project-slide-content">
+                            <h3>Page d'accueil du site</h3>
+                            <p>La page d'accueil présente l'entreprise et met en avant les différentes catégories de
+                                casques disponibles. Une navigation claire permet aux utilisateurs de trouver facilement
+                                ce qu'ils cherchent.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/enfantsnolark.png" alt="Page casques enfants">
+                        <div class="project-slide-content">
+                            <h3>Page casques enfants</h3>
+                            <p>Cette page présente la gamme de casques pour enfants avec des informations détaillées sur
+                                chaque modèle, incluant les caractéristiques techniques, les prix et les disponibilités.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/contactnolark.png" alt="Page contact">
+                        <div class="project-slide-content">
+                            <h3>Page contact</h3>
+                            <p>Un formulaire de contact interactif permet aux clients potentiels de poser des questions
+                                ou de demander des informations supplémentaires. La validation des champs est gérée en
+                                JavaScript pour assurer la qualité des données soumises.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-carousel-nav">
+                    <button class="project-prev-btn">&lt;</button>
+                    <div class="project-dots">
+                        <span class="project-dot active" data-slide="0"></span>
+                        <span class="project-dot" data-slide="1"></span>
+                        <span class="project-dot" data-slide="2"></span>
+                        <span class="project-dot" data-slide="3"></span>
+                    </div>
+                    <button class="project-next-btn">&gt;</button>
+                </div>
+            </div>
+            <div class="project-carousel-container" id="apilou-project">
+                <div class="project-carousel">
+                    <div class="project-slide active">
+                        <div class="project-slide-content">
+                            <h3>Portfolio Amélia Pilou</h3>
+                            <p>Technologies utilisées : HTML5, CSS3, Javascript, Bootstrap</p>
+                            <p>Ce projet consistait à créer un site portfolio professionnel pour une développeuse web
+                                fictive qu'on a ensuite modifié pour que cela nous corresponde. L'objectif était de
+                                mettre en pratique les connaissances en développement front-end et de créer une
+                                présentation professionnelle et attrayante mais également de nous initier au versionning
+                                avec l'utilisaiton de git et github.</p>
+                            <p>Fonctionnalités principales :</p>
+                            <ul>
+                                <li>Présentation personnelle et professionnelle</li>
+                                <li>CV interactif avec parcours et compétences</li>
+                                <li>Galerie de projets réalisés</li>
+                                <li>Formulaire de contact</li>
+                                <li>Design responsive avec Bootstrap</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/accueilapilou.png" alt="Page d'accueil du portfolio">
+                        <div class="project-slide-content">
+                            <h3>Page d'accueil du portfolio</h3>
+                            <p>La page d'accueil présente mon parcours avec une mise en page moderne et épurée. Elle met
+                                en avant mon identité professionnelle et permet d’accéder aux différentes sections du
+                                portfolio.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/cvapilou.png" alt="Page CV">
+                        <div class="project-slide-content">
+                            <h3>Page CV</h3>
+                            <p>Cette section présente mon parcours académique et professionnel ainsi que mes compétences
+                                techniques et personnelles. Le design est structuré pour faciliter la lecture et mettre
+                                en valeur les informations clés.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/Captureap.png" alt="Page contact">
+                        <div class="project-slide-content">
+                            <h3>Page contact</h3>
+                            <p>Un formulaire de contact interactif permet aux visiteurs de me contacter facilement. La
+                                page inclut également des liens vers mes réseaux sociaux professionnels et d'autres
+                                moyens de communication.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-carousel-nav">
+                    <button class="project-prev-btn">&lt;</button>
+                    <div class="project-dots">
+                        <span class="project-dot active" data-slide="0"></span>
+                        <span class="project-dot" data-slide="1"></span>
+                        <span class="project-dot" data-slide="2"></span>
+                        <span class="project-dot" data-slide="3"></span>
+                    </div>
+                    <button class="project-next-btn">&gt;</button>
+                </div>
+            </div>
+            <div class="project-carousel-container" id="cinema-cms-project">
+                <div class="project-carousel">
+                    <div class="project-slide active">
+                        <div class="project-slide-content">
+                            <h3>Site web informations nouvelles sorties cinéma</h3>
+                            <p>Technologies utilisées : Joomla CMS</p>
+                            <p>Ce projet consistait à créer un site d'actualités cinématographiques à l'aide du CMS
+                                Joomla. L'objectif était de maîtriser l'utilisation d'un système de gestion de contenu
+                                pour créer et administrer un site web dynamique.</p>
+                            <p>Fonctionnalités principales :</p>
+                            <ul>
+                                <li>Présentation des nouvelles sorties cinéma</li>
+                                <li>Fiches détaillées des films</li>
+                                <li>Calendrier des prochaines sorties</li>
+                                <li>Système de catégorisation par genre</li>
+                                <li>Interface d'administration pour la gestion du contenu</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/Image1.png" alt="Page d'accueil du site">
+                        <div class="project-slide-content">
+                            <h3>Page d'accueil du site</h3>
+                            <p>La page d'accueil présente les dernières sorties cinéma avec un design attrayant. Elle
+                                offre une navigation intuitive vers les différentes sections du site et met en avant les
+                                films les plus récents.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/Image3.png" alt="Page détaillée d'une sortie">
+                        <div class="project-slide-content">
+                            <h3>Page détaillée d'une nouvelle sortie</h3>
+                            <p>Cette page présente les informations complètes sur un film : synopsis, casting, date de
+                                sortie, avis critiques et bande-annonce. Le design est optimisé pour mettre en valeur
+                                les visuels du film.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/Image2.png" alt="Page des prochaines sorties">
+                        <div class="project-slide-content">
+                            <h3>Page des prochaines sorties</h3>
+                            <p>Cette section présente un calendrier des films à venir avec leurs dates de sortie
+                                prévues. Les utilisateurs peuvent filtrer les sorties par lot.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-carousel-nav">
+                    <button class="project-prev-btn">&lt;</button>
+                    <div class="project-dots">
+                        <span class="project-dot active" data-slide="0"></span>
+                        <span class="project-dot" data-slide="1"></span>
+                        <span class="project-dot" data-slide="2"></span>
+                        <span class="project-dot" data-slide="3"></span>
+                    </div>
+                    <button class="project-next-btn">&gt;</button>
+                </div>
+            </div>
+            <div class="project-carousel-container" id="stage-es-project">
+                <div class="project-carousel">
+                    <div class="project-slide active">
+                        <div class="project-slide-content">
+                            <h3>Système d'archivage de bases de données</h3>
+                            <p>Technologies utilisées : DJANGO Python</p>
+                            <p>Objectif du stage : Développer un système d'archivage de bases de données permettant
+                                d'afficher la dernière archive en cas d'inaccessibilité d'une zone et d'intégrer les
+                                zones non encore prises en compte.</p>
+                            <p>Réalisations principales :</p>
+                            <ul>
+                                <li>Développement d'un système d'archivage automatique des données</li>
+                                <li>Création d'une interface de visualisation des différentes zones</li>
+                                <li>Implémentation d'un mécanisme de fallback vers les archives</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/djangoaccueil.png" alt="Page d'accueil avec zones">
+                        <div class="project-slide-content">
+                            <h3>Page d'accueil avec les différentes zones</h3>
+                            <p>L'interface principale présente une vue d'ensemble des différentes zones surveillées.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/Image1a.png" alt="Bassins surveillés">
+                        <div class="project-slide-content">
+                            <h3>Page avec les différents bassins surveillés</h3>
+                            <p>Cette vue présente la liste des bassins dans une zone sélectionnée. Pour chaque bassin,
+                                des indicateurs visuels permettent d'accéder aux détails des navires qui y sont amarrés.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/Image2a.png" alt="Descriptif bateaux">
+                        <div class="project-slide-content">
+                            <h3>Page avec le descriptif des bateaux amarrés dans ce bassin</h3>
+                            <p>Cette interface détaille les navires présents dans un bassin spécifique. Pour chaque
+                                bateau, on retrouve ses caractéristiques techniques.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/Image3a.png" alt="Ajout navire">
+                        <div class="project-slide-content">
+                            <h3>Page pour ajouter un navire dans un bassin</h3>
+                            <p>Ce formulaire permet d'enregistrer un nouveau navire dans le système. L'interface
+                                intuitive guide l'utilisateur à travers les différentes étapes de saisie des
+                                informations nécessaires.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-carousel-nav">
+                    <button class="project-prev-btn">&lt;</button>
+                    <div class="project-dots">
+                        <span class="project-dot active" data-slide="0"></span>
+                        <span class="project-dot" data-slide="1"></span>
+                        <span class="project-dot" data-slide="2"></span>
+                        <span class="project-dot" data-slide="3"></span>
+                        <span class="project-dot" data-slide="4"></span>
+                    </div>
+                    <button class="project-next-btn">&gt;</button>
+                </div>
+            </div>
+            <div class="project-carousel-container" id="gsb-project">
+                <div class="project-carousel">
+                    <div class="project-slide active">
+                        <div class="project-slide-content">
+                            <h3>GSB - Gestion des frais de déplacement</h3>
+                            <p>Technologies utilisées : PHP, CSS3, Ajax, Bootstrap</p>
+                            <p>Ce projet consistait à développer une application web pour la gestion des frais de
+                                déplacement des visiteurs médicaux. L'objectif était de créer un système permettant aux
+                                comptables de gérer et de valider les fiches de frais soumises par les visiteurs
+                                médicaux.</p>
+                            <p>Fonctionnalités principales :</p>
+                            <ul>
+                                <li>Authentification sécurisée des utilisateurs</li>
+                                <li>Validation des fiches par les comptables</li>
+                                <li>Suivi de l'état des fiches</li>
+                                <li>Génération de rapports PDF</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/gsb11.png" alt="GSB accueil">
+                        <div class="project-slide-content">
+                            <h3>GSB accueil</h3>
+                            <p>La page d'accueil présente un tableau de bord personnalisé selon le profil de
+                                l'utilisateur connecté, ici le comptable. Elle offre un accès rapide aux différentes
+                                fonctionnalités de l'application.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/gsb21.png" alt="GSB page valider">
+                        <div class="project-slide-content">
+                            <h3>GSB page valider</h3>
+                            <p>Cette interface permet aux comptables de consulter les fiches de frais en attente de
+                                validation. Ils peuvent examiner les détails de chaque fiche et procéder à leur
+                                validation ou demander des modifications.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/gsb2autre.png" alt="GSB aucune fiche">
+                        <div class="project-slide-content">
+                            <h3>GSB page valider aucune fiche à valider</h3>
+                            <p>Cette vue indique qu'il n'y a actuellement aucune fiche en attente de validation.
+                                L'interface reste intuitive même lorsqu'aucune donnée n'est disponible.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/gsb31.png" alt="GSB page suivre">
+                        <div class="project-slide-content">
+                            <h3>GSB page suivre le paiement</h3>
+                            <p>Cette section permet de suivre l'état d'avancement des fiches de frais. Les comptables
+                                peuvent mettre en paiement les fiches validées que se soit par lot ou individuellement.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/gsbpdf.png" alt="GSB pdf">
+                        <div class="project-slide-content">
+                            <h3>GSB pdf téléchargé</h3>
+                            <p>Exemple de rapport PDF généré par l'application. Ce document récapitule les informations
+                                de la fiche de frais qui a été remboursée et peut être téléchargé, imprimé ou archivé
+                                par l'utilisateur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-carousel-nav">
+                    <button class="project-prev-btn">&lt;</button>
+                    <div class="project-dots">
+                        <span class="project-dot active" data-slide="0"></span>
+                        <span class="project-dot" data-slide="1"></span>
+                        <span class="project-dot" data-slide="2"></span>
+                        <span class="project-dot" data-slide="3"></span>
+                        <span class="project-dot" data-slide="4"></span>
+                        <span class="project-dot" data-slide="5"></span>
+                    </div>
+                    <button class="project-next-btn">&gt;</button>
+                </div>
+            </div>
+            <div class="project-carousel-container" id="cgb-project">
+                <div class="project-carousel">
+                    <div class="project-slide active">
+                        <div class="project-slide-content">
+                            <h3>CGB - Gestion des frais de déplacement</h3>
+                            <p>Technologies utilisées : PHP, CSS3, Ajax, Bootstrap</p>
+                            <p>Ce projet consistait à développer une application web pour la gestion des frais de
+                                déplacement des visiteurs médicaux. L'objectif était de créer un système permettant aux
+                                comptables de gérer et de valider les fiches de frais soumises par les visiteurs
+                                médicaux.</p>
+                            <p>Fonctionnalités principales :</p>
+                            <ul>
+                                <li>Authentification sécurisée des utilisateurs</li>
+                                <li>Validation des fiches par les comptables</li>
+                                <li>Suivi de l'état des fiches</li>
+                                <li>Génération de rapports PDF</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/gsb11.png" alt="CGB accueil">
+                        <div class="project-slide-content">
+                            <h3>CGB accueil</h3>
+                            <p>La page d'accueil présente un tableau de bord personnalisé selon le profil de
+                                l'utilisateur connecté, ici le comptable. Elle offre un accès rapide aux différentes
+                                fonctionnalités de l'application.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/gsb21.png" alt="CGB page valider">
+                        <div class="project-slide-content">
+                            <h3>CGB page valider</h3>
+                            <p>Cette interface permet aux comptables de consulter les fiches de frais en attente de
+                                validation. Ils peuvent examiner les détails de chaque fiche et procéder à leur
+                                validation ou demander des modifications.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/gsb2autre.png" alt="CGB aucune fiche">
+                        <div class="project-slide-content">
+                            <h3>CGB page valider aucune fiche à valider</h3>
+                            <p>Cette vue indique qu'il n'y a actuellement aucune fiche en attente de validation.
+                                L'interface reste intuitive même lorsqu'aucune donnée n'est disponible.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/gsb31.png" alt="CGB page suivre">
+                        <div class="project-slide-content">
+                            <h3>CGB page suivre le paiement</h3>
+                            <p>Cette section permet de suivre l'état d'avancement des fiches de frais. Les comptables
+                                peuvent mettre en paiement les fiches validées que se soit par lot ou individuellement.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/gsbpdf.png" alt="CGB pdf">
+                        <div class="project-slide-content">
+                            <h3>CGB pdf téléchargé</h3>
+                            <p>Exemple de rapport PDF généré par l'application. Ce document récapitule les informations
+                                de la fiche de frais qui a été remboursée et peut être téléchargé, imprimé ou archivé
+                                par l'utilisateur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-carousel-nav">
+                    <button class="project-prev-btn">&lt;</button>
+                    <div class="project-dots">
+                        <span class="project-dot active" data-slide="0"></span>
+                        <span class="project-dot" data-slide="1"></span>
+                        <span class="project-dot" data-slide="2"></span>
+                        <span class="project-dot" data-slide="3"></span>
+                        <span class="project-dot" data-slide="4"></span>
+                        <span class="project-dot" data-slide="5"></span>
+                    </div>
+                    <button class="project-next-btn">&gt;</button>
+                </div>
+            </div>
+            <div class="project-carousel-container" id="cnmss-project">
+                <div class="project-carousel">
+                    <div class="project-slide active">
+                        <div class="project-slide-content">
+                            <h3>Application d'administration des comptes assurés</h3>
+                            <p>Technologies utilisées : PHP 8.3, SYMFONY 6.4, Keycloak</p>
+                            <p>Objectif du stage : Concevoir l'interface de l'application d'administration des comptes
+                                assurés, en intégrant des appels API et un système d'authentification unique (SSO) avec
+                                gestion des droits via LDAP.</p>
+                            <p>Réalisations principales :</p>
+                            <ul>
+                                <li>Développement d'interfaces utilisateur avec Symfony.</li>
+                                <li>Intégration d'un système d'authentification SSO avec Keycloak.</li>
+                                <li>Implémentation d'appels API pour la gestion des données.</li>
+                                <li>Mise en place d'un système de gestion des droits d'accès via LDAP.</li>
+                                <li>Création de formulaires interactifs pour la gestion des comptes.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/Image6.png" alt="Recherche NIR">
+                        <div class="project-slide-content">
+                            <h3>Page de recherche d'un assuré par son NIR</h3>
+                            <p>Cette interface permet aux agents de rechercher un assuré en utilisant son Numéro de
+                                sécurité sociale (NIR). Le formulaire inclut une validation en temps réel pour garantir
+                                la saisie d'un NIR valide.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/Image5.png" alt="Droits d'accès">
+                        <div class="project-slide-content">
+                            <h3>Exemple quand on n'a pas les droits d'accès sur une page</h3>
+                            <p>Cette page s'affiche lorsqu'un utilisateur tente d'accéder à une fonctionnalité pour
+                                laquelle il n'a pas les permissions nécessaires. Le système de gestion des droits assure
+                                la sécurité des données sensibles.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/Image7.png" alt="Compte supprimé">
+                        <div class="project-slide-content">
+                            <h3>Redirection quand on rentre le NIR d'un compte supprimé</h3>
+                            <p>Cette interface informe l'utilisateur que le compte recherché a été supprimé. Elle offre
+                                une option pour revenir à la recherche.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/Image4.png" alt="Droits consultation">
+                        <div class="project-slide-content">
+                            <h3>Page de détail des données d'un assuré avec droits de consultation</h3>
+                            <p>Cette vue présente les informations d'un assuré en mode lecture seule pour les
+                                utilisateurs ayant uniquement des droits de consultation. L'interface est organisée pour
+                                faciliter la lecture des différentes catégories d'informations.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/Image8.png" alt="Droits admin">
+                        <div class="project-slide-content">
+                            <h3>Page de détail des données d'un assuré avec droits d'admin</h3>
+                            <p>Cette interface étendue permet aux agents de consulter les informations d'un assuré et
+                                effectuer des actions. Des contrôles supplémentaires sont disponibles pour gérer le
+                                compte, comme le déverrouillage ou la suppression du compte de l'assuré.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-carousel-nav">
+                    <button class="project-prev-btn">&lt;</button>
+                    <div class="project-dots">
+                        <span class="project-dot active" data-slide="0"></span>
+                        <span class="project-dot" data-slide="1"></span>
+                        <span class="project-dot" data-slide="2"></span>
+                        <span class="project-dot" data-slide="3"></span>
+                        <span class="project-dot" data-slide="4"></span>
+                        <span class="project-dot" data-slide="5"></span>
+                    </div>
+                    <button class="project-next-btn">&gt;</button>
+                </div>
+            </div>
+            <div class="project-carousel-container" id="portfolio-project">
+                <div class="project-carousel">
+                    <div class="project-slide active">
+                        <div class="project-slide-content">
+                            <h3>Portfolio pour les épreuves de BTS</h3>
+                            <p>Technologies utilisées : HTML5, CSS3, Javascript, Bootstrap</p>
+                            <p>Ce projet consistait à créer mon portfolio personnel pour présenter mes compétences et
+                                réalisations dans le cadre des épreuves du BTS SIO. L'objectif était de mettre en valeur
+                                mon parcours et mes projets de manière professionnelle.</p>
+                            <p>Fonctionnalités principales :</p>
+                            <ul>
+                                <li>Présentation personnelle et professionnelle</li>
+                                <li>Showcase des projets réalisés pendant la formation</li>
+                                <li>Détail des compétences techniques et transversales</li>
+                                <li>CV interactif</li>
+                                <li>Design responsive et moderne</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-carousel-nav">
+                    <button class="project-prev-btn">&lt;</button>
+                    <div class="project-dots">
+                        <span class="project-dot active" data-slide="0"></span>
+                    </div>
+                    <button class="project-next-btn">&gt;</button>
+                </div>
+            </div>
+            <div class="project-carousel-container" id="metaverse-project">
+                <div class="project-carousel">
+                    <div class="project-slide active">
+                        <div class="project-slide-content">
+                            <h3>Exposé NSI Métaverse</h3>
+                            <p>Technologies utilisées : HTML5, CSS3, Javascript</p>
+                            <p>Ce projet consistait à créer un site web pour présenter un exposé sur le Métaverse dans
+                                le cadre du cours de NSI (Numérique et Sciences Informatiques). L'objectif était
+                                d'explorer ce concept émergent et de le présenter de manière interactive et pédagogique.
+                            </p>
+                            <p>Fonctionnalités principales :</p>
+                            <ul>
+                                <li>Présentation du concept de Métaverse</li>
+                                <li>Analyse des acteurs majeurs (GAFAM et NATU)</li>
+                                <li>Navigation intuitive entre les différentes sections</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/accueil1.jpg.png" alt="Page d'accueil">
+                        <div class="project-slide-content">
+                            <h3>Page d'accueil du site</h3>
+                            <p>La page d'accueil introduit le concept de Métaverse et présente les principales
+                                thématiques abordées dans l'exposé. Le design visuel évoque l'univers numérique et
+                                immersif du sujet traité.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/accueil2.png" alt="Page d'accueil suite">
+                        <div class="project-slide-content">
+                            <h3>Page d'accueil suite</h3>
+                            <p>Cette section approfondit la présentation du Métaverse en explorant ses origines, son
+                                évolution et ses applications potentielles. Des illustrations et schémas facilitent la
+                                compréhension de ce concept complexe.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/accueil3.png" alt="Page GAFAM">
+                        <div class="project-slide-content">
+                            <h3>Page GAFAM</h3>
+                            <p>Cette page analyse le rôle et les stratégies des géants technologiques (Google, Apple,
+                                Facebook, Amazon, Microsoft) dans le développement du Métaverse. Elle présente leurs
+                                initiatives et investissements dans ce domaine.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/natu.png" alt="Page NATU">
+                        <div class="project-slide-content">
+                            <h3>Page NATU</h3>
+                            <p>Cette section se concentre sur les entreprises NATU (Netflix, Airbnb, Tesla, Uber) et
+                                leur positionnement par rapport au Métaverse. Elle explore comment ces acteurs
+                                disruptifs pourraient intégrer ou transformer cette nouvelle dimension numérique.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-carousel-nav">
+                    <button class="project-prev-btn">&lt;</button>
+                    <div class="project-dots">
+                        <span class="project-dot active" data-slide="0"></span>
+                        <span class="project-dot" data-slide="1"></span>
+                        <span class="project-dot" data-slide="2"></span>
+                        <span class="project-dot" data-slide="3"></span>
+                        <span class="project-dot" data-slide="4"></span>
+                    </div>
+                    <button class="project-next-btn">&gt;</button>
+                </div>
+            </div>
+            <div class="project-carousel-container" id="emc-project">
+                <div class="project-carousel">
+                    <div class="project-slide active">
+                        <div class="project-slide-content">
+                            <h3>Devoir EMC Terminale</h3>
+                            <p>Technologies utilisées : HTML5, CSS3</p>
+                            <p>Ce projet consistait à créer un site web pour présenter un travail d'Enseignement Moral
+                                et Civique (EMC) en classe de Terminale. L'objectif était d'explorer des thématiques
+                                européennes et de les présenter sous forme de site web interactif.</p>
+                            <p>Fonctionnalités principales :</p>
+                            <ul>
+                                <li>Présentation des institutions européennes</li>
+                                <li>Analyse comparative des pays membres</li>
+                                <li>Exploration des points communs et différences</li>
+                                <li>Réflexion sur les valeurs européennes</li>
+                                <li>Navigation simple et intuitive</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/pageaccueil.png" alt="Page d'accueil">
+                        <div class="project-slide-content">
+                            <h3>Page d'accueil du site</h3>
+                            <p>La page d'accueil présente le sujet du devoir et introduit les principales thématiques
+                                abordées. Elle offre une navigation claire vers les différentes sections du site.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/europe.png" alt="Page Europe">
+                        <div class="project-slide-content">
+                            <h3>Page sur l'Europe</h3>
+                            <p>Cette section explore l'histoire, les institutions et les valeurs de l'Union européenne.
+                                Elle présente les étapes clés de la construction européenne et les principaux organes de
+                                gouvernance.</p>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <img src="assets/images/pointscommuns.png" alt="Points communs">
+                        <div class="project-slide-content">
+                            <h3>Page Points communs et différences</h3>
+                            <p>Cette page analyse les similitudes et les divergences entre les pays membres de l'Union
+                                européenne et ceux d'Amérique. Elle explore les dimensions culturelles, économiques et
+                                politiques des deux continents, afin d'offrir une vision nuancée des dynamiques
+                                démocratiques en Europe et en Amérique.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-carousel-nav">
+                    <button class="project-prev-btn">&lt;</button>
+                    <div class="project-dots">
+                        <span class="project-dot active" data-slide="0"></span>
+                        <span class="project-dot" data-slide="1"></span>
+                        <span class="project-dot" data-slide="2"></span>
+                        <span class="project-dot" data-slide="3"></span>
+                    </div>
+                    <button class="project-next-btn">&gt;</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Skills -->
     <section id="skills" class="skills">
         <div class="container">
             <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What do I know?</span></h6>
-            <h2 class="section-heading text-center">Skills</h2>
-            <p class="text-center muted-text mt-3 mb-4">Here are some of the technologies that are part of my current stack:</p>
-            
+            <h2 class="section-heading text-center">Compétences</h2>
+            <p class="text-center muted-text mt-3 mb-4">Here are some of the technologies that are part of my current
+                stack:</p>
+
             <div class="skill-content">
-                <div class="section-heading text-center">
-                    <h2>Compétences</h2>
-                </div>
+
                 <div class="container">
                     <div class="row">
                         <h2><strong>Langages</strong></h2>
@@ -213,7 +1187,8 @@
                                     <span class="progressText">Python</span>
                                     <div class="single-progress-txt">
                                         <div class="progress ">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="10" aria-valuemax="100" style="width: 65%;"></div>
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                                                aria-valuemin="10" aria-valuemax="100" style="width: 65%;"></div>
                                         </div>
                                         <h3>65%</h3>
                                     </div>
@@ -222,7 +1197,8 @@
                                     <span class="progressText">C#</span>
                                     <div class="single-progress-txt">
                                         <div class="progress ">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="10" aria-valuemax="100" style="width: 65%;"></div>
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                                                aria-valuemin="10" aria-valuemax="100" style="width: 65%;"></div>
                                         </div>
                                         <h3>65%</h3>
                                     </div>
@@ -231,7 +1207,8 @@
                                     <span class="progressText">Java</span>
                                     <div class="single-progress-txt">
                                         <div class="progress ">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="10" aria-valuemax="100" style="width: 65%;"></div>
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                                                aria-valuemin="10" aria-valuemax="100" style="width: 65%;"></div>
                                         </div>
                                         <h3>65%</h3>
                                     </div>
@@ -240,7 +1217,8 @@
                                     <span class="progressText">PHP</span>
                                     <div class="single-progress-txt">
                                         <div class="progress ">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100" style="width: 75%;"></div>
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                                aria-valuemin="10" aria-valuemax="100" style="width: 75%;"></div>
                                         </div>
                                         <h3>75%</h3>
                                     </div>
@@ -253,7 +1231,8 @@
                                     <span class="progressText">html</span>
                                     <div class="single-progress-txt">
                                         <div class="progress ">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="10" aria-valuemax="100" style="width: 85%;"></div>
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="85"
+                                                aria-valuemin="10" aria-valuemax="100" style="width: 85%;"></div>
                                         </div>
                                         <h3>85%</h3>
                                     </div>
@@ -262,7 +1241,8 @@
                                     <span class="progressText">css</span>
                                     <div class="single-progress-txt">
                                         <div class="progress ">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="10" aria-valuemax="100" style="width: 70%;"></div>
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                                aria-valuemin="10" aria-valuemax="100" style="width: 70%;"></div>
                                         </div>
                                         <h3>70%</h3>
                                     </div>
@@ -271,7 +1251,8 @@
                                     <span class="progressText">Javascript</span>
                                     <div class="single-progress-txt">
                                         <div class="progress ">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="10" aria-valuemax="100" style="width: 60%;"></div>
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                                aria-valuemin="10" aria-valuemax="100" style="width: 60%;"></div>
                                         </div>
                                         <h3>60%</h3>
                                     </div>
@@ -280,7 +1261,8 @@
                                     <span class="progressText"> SQL</span>
                                     <div class="single-progress-txt">
                                         <div class="progress ">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100" style="width: 75%;"></div>
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                                aria-valuemin="10" aria-valuemax="100" style="width: 75%;"></div>
                                         </div>
                                         <h3>75%</h3>
                                     </div>
@@ -298,7 +1280,8 @@
                                     <span class="progressText"> Django</span>
                                     <div class="single-progress-txt">
                                         <div class="progress ">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="10" aria-valuemax="100" style="width: 60%;"></div>
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                                aria-valuemin="10" aria-valuemax="100" style="width: 60%;"></div>
                                         </div>
                                         <h3>60%</h3>
                                     </div>
@@ -311,7 +1294,8 @@
                                     <span class="progressText"> Symfony</span>
                                     <div class="single-progress-txt">
                                         <div class="progress ">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="10" aria-valuemax="100" style="width: 60%;"></div>
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                                aria-valuemin="10" aria-valuemax="100" style="width: 60%;"></div>
                                         </div>
                                         <h3>60%</h3>
                                     </div>
@@ -329,7 +1313,8 @@
                                     <span class="progressText"> Eclipse</span>
                                     <div class="single-progress-txt">
                                         <div class="progress ">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100" style="width: 75%;"></div>
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                                aria-valuemin="10" aria-valuemax="100" style="width: 75%;"></div>
                                         </div>
                                         <h3>75%</h3>
                                     </div>
@@ -338,7 +1323,8 @@
                                     <span class="progressText"> IntelliJ IDEA</span>
                                     <div class="single-progress-txt">
                                         <div class="progress ">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="10" aria-valuemax="100" style="width: 40%;"></div>
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="40"
+                                                aria-valuemin="10" aria-valuemax="100" style="width: 40%;"></div>
                                         </div>
                                         <h3>40%</h3>
                                     </div>
@@ -347,7 +1333,8 @@
                                     <span class="progressText"> Netbeans</span>
                                     <div class="single-progress-txt">
                                         <div class="progress ">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100" style="width: 75%;"></div>
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                                aria-valuemin="10" aria-valuemax="100" style="width: 75%;"></div>
                                         </div>
                                         <h3>75%</h3>
                                     </div>
@@ -360,7 +1347,8 @@
                                     <span class="progressText"> Visual Studio</span>
                                     <div class="single-progress-txt">
                                         <div class="progress ">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100" style="width: 75%;"></div>
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                                aria-valuemin="10" aria-valuemax="100" style="width: 75%;"></div>
                                         </div>
                                         <h3>75%</h3>
                                     </div>
@@ -369,7 +1357,8 @@
                                     <span class="progressText"> VSCode</span>
                                     <div class="single-progress-txt">
                                         <div class="progress ">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="10" aria-valuemax="100" style="width: 85%;"></div>
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="85"
+                                                aria-valuemin="10" aria-valuemax="100" style="width: 85%;"></div>
                                         </div>
                                         <h3>85%</h3>
                                     </div>
@@ -378,7 +1367,8 @@
                                     <span class="progressText"> Joomla</span>
                                     <div class="single-progress-txt">
                                         <div class="progress ">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="10" aria-valuemax="100" style="width: 60%;"></div>
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                                aria-valuemin="10" aria-valuemax="100" style="width: 60%;"></div>
                                         </div>
                                         <h3>60%</h3>
                                     </div>
@@ -390,331 +1380,83 @@
             </div>
         </div>
     </section>
-   <!-- About Me -->
-   <section id="profiles" class="profiles">
-    <div class="container">
-        <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">But who am I?</span></h6>
-        <h2 class="section-heading text-center">About Me</h2>
-        <p class="text-center muted-text mt-3 mb-4">My store in a nutshell ;)</p>
-        <div class="profiles-details">
-			<div class="section-heading text-center">
-				<h2>Certifications</h2>
-			</div>
-			<div class="container">
-				<div class="profiles-content">
-					<div class="row">
-						<div class="col-sm-3">
-							<div class="single-profile">
-								<img src="assets/images/testes.png" alt="Certificat 1" class="certification-img cert-thumbnail" data-pdf-src="assets/images/Certifications/Certification_ANSSI_MOOC_CYBER_Clément_Gontier.pdf">
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="single-profile">
-								<img src="assets/images/cnil.png" alt="Certificat 3" class="certification-img cert-thumbnail" data-pdf-src="assets/images/Certifications/attestation_CNIL.pdf">
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="single-profile">
-								<img src="assets/images/OpenClassrooms.png" alt="Certificat 4" class="certification-img cert-thumbnail" data-pdf-src="assets/images/OpenClassroomsCours.png">
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="single-profile">
-								<img src="assets/images/LOGO-CISCO.jpg" alt="Certificat 5" class="certification-img cert-thumbnail" data-pdf-src="assets/images/BadgeCyber.png">
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="single-profile">
-								<img src="assets/images/pix.png" alt="Certificat 2" class="certification-img cert-thumbnail" data-pdf-src="assets/images/Certifications/attestation-pix-20250114.pdf">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+    <!-- About Me -->
+    <section id="about" class="profiles">
+        <div class="container">
+            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">But who am I?</span></h6>
+            <h2 class="section-heading text-center">Certifications</h2>
+            <p class="text-center muted-text mt-3 mb-4">My store in a nutshell ;)</p>
+            <div class="profiles-details">
+                <div class="container">
+                    <div class="profiles-content">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="single-profile">
+                                    <img src="assets/images/testes.png" alt="Certificat 1"
+                                        class="certification-img cert-thumbnail"
+                                        data-pdf-src="assets/images/Certifications/Certification_ANSSI_MOOC_CYBER_Clément_Gontier.pdf">
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="single-profile">
+                                    <img src="assets/images/cnil.png" alt="Certificat 3"
+                                        class="certification-img cert-thumbnail"
+                                        data-pdf-src="assets/images/Certifications/attestation_CNIL.pdf">
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="single-profile">
+                                    <img src="assets/images/OpenClassrooms.png" alt="Certificat 4"
+                                        class="certification-img cert-thumbnail"
+                                        data-pdf-src="assets/images/OpenClassroomsCours.png">
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="single-profile">
+                                    <img src="assets/images/LOGO-CISCO.jpg" alt="Certificat 5"
+                                        class="certification-img cert-thumbnail"
+                                        data-pdf-src="assets/images/BadgeCyber.png">
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="single-profile">
+                                    <img src="assets/images/pix.png" alt="Certificat 2"
+                                        class="certification-img cert-thumbnail"
+                                        data-pdf-src="assets/images/Certifications/attestation-pix-20250114.pdf">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="cert-modal-overlay" id="certModalOverlay">
+        <div class="cert-modal-container">
+            <button class="cert-close-modal" id="certCloseModal">&times;</button>
+            <div class="cert-modal-content">
+                <embed id="pdfViewer" type="application/pdf" width="100%" height="100%">
+            </div>
+        </div>
     </div>
-</section>
-    <!-- Tools -->
-    <section id="tools">
-        <div class="container">
-            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What I uses?</span></h6>
-            <h2 class="section-heading text-center">Tools</h2>
-            <p class="text-center muted-text mt-3 mb-4">Tech stack known? Here are tools that I runs:</p>
-            <div class="row justify-content-center row-cols-2 row-cols-md-3 row-cols-lg-6 mt-4 gy-4 tools-container" data-aos="fade-down" data-aos-delay="200">
-                <div class="col">
-                    <div class="tool">
-                        <img class="tool-image" src="/assets/images/tools/vscode.svg" alt="VSCode">
-                        <p class="tool-name">VSCode</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="tool">
-                        <img class="tool-image" src="/assets/images/tools/github.svg" alt="Github">
-                        <p class="tool-name">Github</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="tool">
-                        <img class="tool-image" src="/assets/images/tools/canva.svg" alt="Canva">
-                        <p class="tool-name">Canva</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="tool">
-                        <img class="tool-image" src="/assets/images/tools/Figma.svg" alt="Figma">
-                        <p class="tool-name">Figma</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="tool">
-                        <img class="tool-image" src="/assets/images/tools/ChatGPT.svg" alt="ChatGPT">
-                        <p class="tool-name">ChatGPT</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="tool">
-                        <img class="tool-image" src="/assets/images/tools/Gemini.svg" alt="Gemini">
-                        <p class="tool-name">Gemini</p>
-                    </div>
-                </div>
+
+    <div class="cert-modal-overlay" id="certModalOverlay">
+        <div class="cert-modal-container">
+            <button class="cert-close-modal" id="certCloseModal">&times;</button>
+            <div class="cert-modal-content">
+                <img src="" id="certFullImage" alt="Certificate Full View">
             </div>
         </div>
-    </section>
-
-    <!-- Timelines 
-    <section id="timelines">
-        <div class="container">
-            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What am Doing?</span></h6>
-            <h2 class="section-heading text-center">Timelines</h2>
-            <div class="row justify-content-center row-cols-2 row-cols-md-3 row-cols-lg-6 skills-container">
-                <div class="col">
-                </div>
-            </div>
-        </div>
-    </section> -->
-            
-
-    <!-- Projects -->
-    <section id="projects">
-        <div class="container">
-            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What I've done?</span></h6>
-            <h2 class="section-heading text-center">Projects</h2>
-            <div class="row justify-content-center mt-4 gy-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="col-lg-4 col-md-6">
-                    <div class="card project-card">
-                        <div class="card-body">
-                            <div class="d-flex align-items-center">
-                                <div class="col-2">
-                                    <img src="/assets/images/projects/pfpfinder-icon.png" class="img-fluid icon" alt="PfpFinder Logo">
-                                </div>
-                                <div class="col-7 p-0">
-                                    <a href="https://pfpfinder.com/" class="card-title title" target="_blank">PfpFinder</a>
-                                    <p class="stacks m-0">HTML | CSS | BS | JS + NodeJS</p>
-                                </div>
-                                <div class="col-3 align-middle">
-                                    <a href="https://pfpfinder.com/" class="btn btn-sm primary-bg-btn rounded-5" target="_blank">Visit <i class="bi bi-arrow-up-right-circle-fill"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="description-container">
-                            <p class="description">Find the best profile pictures and banners for all your social media accounts.</p>
-                        </div>
-                        <div class="banner-container">
-                            <div class="overlay">
-                                <a href="https://pfpfinder.com/" class="btn" target="_blank"><i class="bi bi-arrow-up-right-circle-fill"></i></a>
-                            </div>
-                            <img src="/assets/images/projects/pfpfinder-banner.webp" class="card-img-top banner" alt="PfpFinder Banner">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="card project-card">
-                        <div class="card-body">
-                            <div class="d-flex align-items-center">
-                                <div class="col-2">
-                                    <img src="/assets/images/projects/bikekart-icon.png" class="img-fluid icon" alt="BikeKart Template Logo">
-                                </div>
-                                <div class="col-7 p-0">
-                                    <a href="https://itsvijaysingh.github.io/BikeKart/" class="card-title title" target="_blank">BikeKart</a>
-                                    <p class="stacks m-0">HTML | CSS</p>
-                                </div>
-                                <div class="col-3 align-middle">
-                                    <a href="https://itsvijaysingh.github.io/BikeKart/" class="btn btn-sm primary-bg-btn rounded-5" target="_blank">Visit <i class="bi bi-arrow-up-right-circle-fill"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="description-container">
-                            <p class="description">BikeKart is just another bike store web template with mulitple sections.</p>
-                        </div>
-                        <div class="banner-container">
-                            <div class="overlay">
-                                <a href="https://itsvijaysingh.github.io/BikeKart/" class="btn" target="_blank"><i class="bi bi-arrow-up-right-circle-fill"></i></a>
-                            </div>
-                            <img src="/assets/images/projects/bikekart-banner.webp" class="card-img-top banner" alt="BikeKart Banner">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="card project-card cursor-not-allowed">
-                        <div class="card-body ">
-                            <div class="d-flex align-items-center">
-                                <div class="col-2">
-                                    <img src="/assets/images/projects/simplcalc-icon.png" class="img-fluid icon" alt="SimplCalc Icon">
-                                </div>
-                                <div class="col-7 p-0">
-                                    <span class="card-title title">SimplCalc</span>
-                                    <p class="stacks m-0">HTML | CSS | JS</p>
-                                </div>
-                                <div class="col-3 align-middle">
-                                    <button class="btn btn-sm in-progress cursor-not-allowed">In Progress</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="description-container">
-                            <p class="description">Tired of calculating manually? SimplCalc is best and faster solution.</p>
-                        </div>
-                        <div class="banner-container cursor-not-allowed">
-                            <div class="overlay">
-                                <i class="bi bi-hourglass-split"></i>
-                            </div>
-                            <img src="/assets/images/projects/simplcalc-banner.webp" class="card-img-top banner" alt="SimplCalc Banner">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials -->
-    <section id="testimonials">
-        <div class="container">
-            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What they Think?</span></h6>
-            <h2 class="section-heading text-center">Testimonials</h2>
-            <p class="text-center muted-text mt-3 mb-4">What do my friends and clients say about me.</p>
-            <div class="row mt-4 gy-4" data-aos="fade-down" data-aos-delay="200">
-                <div class="col-md-12">
-                    <div id="testimonial-slider" class="owl-carousel">
-                        <div class="testimonial">
-                            <p class="description">
-                                Your brilliance is truly inspiring. You bring so much positivity and creativity wherever you go. Keep shining brightly! Working with you has been always an incredible experience.
-                            </p>
-                            <div class="pic">
-                                <img src="/assets/images/testimonials/Moinudeen.webp" alt="Moinudeen Pic">
-                            </div>
-                            <div class="detail">
-                                <h4 class="name">Moinudeen</h4>
-                                <small class="role" >Programmer</small>
-                            </div>
-                        </div>
-         
-                        <div class="testimonial">
-                            <p class="description">
-                                Bro, I admire your hard work. Your efforts speak volumes about you. You're amazing! Much love, bro! 🤜🤛
-                            </p>
-                            <div class="pic">
-                                <img src="/assets/images/testimonials/Nadeem.webp" alt="Nadeem Pic">
-                            </div>
-                            <div class="detail">
-                                <h4 class="name">Nadeem</h4>
-                                <small class="role">Friend</small>
-                            </div>
-                        </div>
-
-                       <div class="testimonial">
-                            <p class="description">
-                                Vijay's commitment and hard work shine through in everything he does.
-                            </p>
-                            <div class="pic">
-                                <img src="/assets/images/testimonials/J.svg" alt="Jwala Pratap Pic" class="">
-                            </div>
-                            <div class="detail">
-                                <h4 class="name">Jwala Pratap</h4>
-                                <small class="role">Web Developer</small>
-                            </div>
-                        </div>
-
-                        <div class="testimonial">
-                            <p class="description">
-                                Working with Vijay has been an incredible experience. His dedication in web development truly shine through his work. He has a remarkable ability to turn ideas into reality & crafting websites that exceed expectations.
-                            </p>
-                            <div class="pic">
-                                <img src="/assets/images/testimonials/Rahul.webp" alt="Rahul Pic">
-                            </div>
-                            <div class="detail">
-                                <h4 class="name">Rahul Sharma</h4>
-                                <small class="role">Software Developer</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Blogs -->
-    <section id="blogs">
-        <div class="container">
-            <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">Do I Write?</span></h6>
-            <h2 class="section-heading text-center">My Blogs</h2>
-            <p class="text-center muted-text mt-3 mb-4">From tech tips to gaming guides, here are some written pieces that you can check out if you're interested.</p>
-            <div class="row justify-content-center gy-4" data-aos="fade-up" data-aos-delay="600">
-                <div class="col-lg-4 col-md-6">
-                    <div class="card article-card">
-                        <div class="banner-container position-relative">
-                            <div class="position-absolute top-0 end-0">
-                                <span class="badge">Gaming</span>
-                            </div>
-                            <img src="https://gamesroid.com/wp-content/uploads/2023/10/How-to-Update-Township.webp" class="card-img-top banner" alt="How to Update Township Game">
-                        </div>                        
-                        <div class="card-body">
-                            <a href="https://gamesroid.com/how-to-update-township-game/"></a><h6 class="card-title">How to Update Township Game – Guide for Every Platform!</h6></a>
-                            <p class="card-text description">Keep your Township updated and experience all the latest features.</p>
-                            <a href="https://gamesroid.com/how-to-update-township-game/" class="text-decoration-none" target="_blank"><span class="read-more">Read More <i class="bi bi-arrow-up-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="card article-card">
-                        <div class="banner-container position-relative">
-                            <div class="position-absolute top-0 end-0">
-                                <span class="badge">Gaming</span>
-                            </div>
-                            <img src="https://gamesroid.com/wp-content/uploads/2023/09/Popular-Mobile-Games.webp" class="card-img-top banner" alt="Most Popular Mobile Games in India">
-                        </div>                        
-                        <div class="card-body">
-                            <a href="https://gamesroid.com/most-popular-mobile-games-in-india/"></a><h6 class="card-title">Most Popular Mobile Games in India- Android & iOS </h6></a>
-                            <p class="card-text description">Find out the top trendiest and most popular mobile games in India!</p>
-                            <a href="https://gamesroid.com/most-popular-mobile-games-in-india/" class="text-decoration-none" target="_blank"><span class="read-more">Read More <i class="bi bi-arrow-up-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="card article-card">
-                        <div class="banner-container position-relative">
-                            <div class="position-absolute top-0 end-0">
-                                <span class="badge">Gaming</span>
-                            </div>
-                            <img src="https://gamesroid.com/wp-content/uploads/2024/01/Discord-Banners.webp" class="card-img-top banner" alt="Best Discord Banners and GIFs">
-                        </div>                        
-                        <div class="card-body">
-                            <a href="https://gamesroid.com/best-discord-banners/"></a><h6 class="card-title">100+ Best Discord Banners and GIFs</h6></a>
-                            <p class="card-text description">From anime, to aesthetics, cuteness to coolness, static to animated there's a for you.</p>
-                            <a href="https://gamesroid.com/best-discord-banners/" class="text-decoration-none" target="_blank"><span class="read-more">Read More <i class="bi bi-arrow-up-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
 
     <!-- Contact -->
     <section id="contact">
         <div class="container">
             <h6 class="text-center"><span class="btn btn-sm theme-button theme-text">What's next!</span></h6>
             <h2 class="section-heading text-center">Get In Touch</h2>
-            <p class="text-center muted-text mt-3 mb-4">Interested in working together? We should schedule a time to chat. I'll bring the coffee.</p>
+            <p class="text-center muted-text mt-3 mb-4">Interested in working together? We should schedule a time to
+                chat. I'll bring the coffee.</p>
             <div class="row justify-content-center" data-aos="fade-down" data-aos-delay="500">
                 <div class="col-lg-8">
                     <div class="contact-form">
@@ -722,26 +1464,31 @@
                             <div class="row g-2">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Name *" required>
+                                        <input type="text" class="form-control" id="name" name="name"
+                                            placeholder="Name *" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="email" name="email" placeholder="Email *" required>
+                                        <input type="email" class="form-control" id="email" name="email"
+                                            placeholder="Email *" required>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="subject" name="subject"  placeholder="Subject *" required>
+                                        <input type="text" class="form-control" id="subject" name="subject"
+                                            placeholder="Subject *" required>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <textarea style="resize: none;" class="form-control" id="message" name="message" rows="5" placeholder="Your message *" required></textarea>
+                                        <textarea style="resize: none;" class="form-control" id="message" name="message"
+                                            rows="5" placeholder="Your message *" required></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <button type="submit" class="btn primary-bg-btn mt-2">Send Message <i class="bi bi-arrow-up-right"></i></button>
+                                    <button type="submit" class="btn primary-bg-btn mt-2">Send Message <i
+                                            class="bi bi-arrow-up-right"></i></button>
                                 </div>
                             </div>
                         </form>
@@ -750,19 +1497,21 @@
             </div>
         </div>
     </section>
-
+    
     <!-- Footer -->
     <footer id="footer">
         <div class="container">
-            <p class="text-center copyright-text">Made with <span>Bootstrap, HTML, CSS, JS</span> and a dash of <span class="heart-icon"><i class="bi bi-hearts"></i></span> by <span>Vijay</span>.</p>
+            <p class="text-center copyright-text">2025 - © copyright Clément Gontier.</p>
         </div>
     </footer>
 
     <button class="btn" id="backToTopButton" onclick="scrollToTop()" style="display: none;">
         <span aria-label="Back to top">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-square" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
-              </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                class="bi bi-arrow-up-square" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z" />
+            </svg>
         </span>
     </button>
 
@@ -773,6 +1522,8 @@
     <script src="assets/js/bootstrap.min.js" defer></script>
     <script src="assets/js/script.js" defer></script>
     <script src="assets/js/modal.js" defer></script>
+    <script src="assets/js/tri-projets.js" defer></script>
 
 </body>
+
 </html>
