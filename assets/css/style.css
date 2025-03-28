@@ -108,12 +108,18 @@ a:hover {
 [data-bs-theme="light"] .project-info {
     color: black;
 }
+[data-bs-theme="light"] .project-item {
+    background: lightgray;
+}
 [data-bs-theme="light"] .project-prev-btn:hover {
     background-color: var(--primary-color);
 }
 [data-bs-theme="light"]
 .project-next-btn:hover {
     background-color: var(--primary-color);
+}
+[data-bs-theme="dark"] .project-item {
+    background: gray;
 }
 [data-bs-theme="dark"] .project-slide-content {
     color: white;
