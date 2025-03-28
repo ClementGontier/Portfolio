@@ -1902,3 +1902,10 @@ button.next:hover {
 .filter-btn.active {
     background-color: #2ecc71;
 }
+
+@media (min-width: 765px) {
+    .pic{
+        margin-top: 65px;
+        height: 65%;
+    }
+}
