@@ -1903,7 +1903,7 @@ button.next:hover {
     background-color: #2ecc71;
 }
 
-@media (min-width: 765px) {
+@media (min-width: 576px) {
     .pic{
         margin-top: 65px;
         height: 65%;
