@@ -319,10 +319,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Auto-advance carousel (optional)
-    setInterval(function() {
-        if (activeProject && modalOverlay.style.display === 'flex') {
-            nextSlide();
-        }
-    }, 5000); // Change slide every 5 seconds
+    // // Auto-advance carousel (optional)
+    // setInterval(function() {
+    //     if (activeProject && modalOverlay.style.display === 'flex') {
+    //         nextSlide();
+    //     }
+    // }, 5000); // Change slide every 5 seconds
 });
