@@ -123,13 +123,13 @@ a:hover {
 }
 [data-bs-theme="dark"] .project-slide-content {
     color: white;
-    background: black;
+    background: gray;
 }
 [data-bs-theme="dark"] .project-slide.active {
-    background: black;
+    background: gray;
 }
 [data-bs-theme="dark"] .project-carousel-nav {
-    background-color: black;
+    background-color: gray;
 }
 [data-bs-theme="dark"] .project-slide-content h3 {
     color: white;
@@ -1721,6 +1721,7 @@ button.next:hover {
 .project-slide.active {
     opacity: 1;
     z-index: 1;
+    background: lightgray;
 }
 
 .project-slide img {
@@ -1733,7 +1734,7 @@ button.next:hover {
     padding: 20px;
     text-align: center;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: lightgray;
 }
 
 .project-slide-content h3 {
@@ -1746,7 +1747,7 @@ button.next:hover {
     justify-content: center;
     align-items: center;
     padding: 15px;
-    background-color: #f5f5f5;
+    background-color: lightgray;
 }
 
 .project-prev-btn,
