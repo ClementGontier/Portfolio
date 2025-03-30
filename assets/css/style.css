@@ -1041,9 +1041,9 @@ a:hover {
     transform: translate(0, -0.25rem) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
 }
 
-.skill-content {
+/* .skill-content {
     padding: 50px 0 80px;
-}
+} */
 
 .section-heading h2 {
     font-size: 24px;
@@ -1061,7 +1061,7 @@ a:hover {
     color: var(--tertiary-color);
     position: relative;
     top: 6px;
-    left: 20px;
+    left: 10px;
 }
 
 .barWrapper {
