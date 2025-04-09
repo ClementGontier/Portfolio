@@ -1954,3 +1954,32 @@ button.next:hover {
     font-size: 14px;
     color: var(--muted-text);
 }
+
+.ttip-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    margin-right: 20px;
+  }
+
+  .ttip-text {
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 1;
+  }
+
+  .ttip-container:hover .ttip-text {
+    opacity: 1;
+    visibility: visible;
+  }
