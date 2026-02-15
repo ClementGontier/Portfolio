@@ -73,3 +73,112 @@ $(document).ready(function(){
         }
     });
 });
+
+    // Language switcher
+    const langButton = document.getElementById('switchLang');
+    const savedLang = localStorage.getItem('lang') || 'fr';
+
+    // Normalize text by removing extra spaces and newlines
+    function normalizeText(text) {
+        return text.replace(/\s+/g, ' ').trim();
+    }
+
+    function applyLanguage(lang) {
+        // Update document title
+        if (lang === 'en') {
+            document.title = 'Clément Gontier - Portfolio';
+        } else {
+            document.title = 'Portfolio Clément Gontier';
+        }
+
+        // Special handling for bullet points in card-text elements
+        const cardTexts = document.querySelectorAll('.card-text');
+        cardTexts.forEach(element => {
+            let html = element.innerHTML;
+            // Normalize whitespace in HTML (preserve <br> tags)
+            html = html.replace(/\s+/g, ' ').replace(/ <br>/g, '<br>').replace(/<br> /g, '<br>');
+            
+            if (lang === 'en') {
+                // French to English translation
+                for (let frKey in translations) {
+                    const enValue = translations[frKey]['en'];
+                    // Handle both with and without line breaks
+                    const frKeyNormalized = frKey.replace(/\s+/g, ' ').trim();
+                    const regex = new RegExp(frKeyNormalized.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g');
+                    html = html.replace(regex, enValue);
+                }
+            } else {
+                // English to French translation
+                for (let frKey in translations) {
+                    const enValue = translations[frKey]['en'];
+                    const enValueNormalized = enValue.replace(/\s+/g, ' ').trim();
+                    const regex = new RegExp(enValueNormalized.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g');
+                    html = html.replace(regex, frKey);
+                }
+            }
+            element.innerHTML = html;
+        });
+
+        // Traverse all text nodes and translate them (for non-bullet content)
+        const walkDom = (node) => {
+            if (node.nodeType === Node.TEXT_NODE) {
+                const text = node.textContent;
+                if (text && text.trim()) {
+                    const normalized = normalizeText(text);
+                    
+                    if (lang === 'en') {
+                        // Try to find in translations (French to English)
+                        if (translations[normalized]) {
+                            node.textContent = translations[normalized]['en'];
+                        } else {
+                            // Try to find with original spaces
+                            if (translations[text]) {
+                                node.textContent = translations[text]['en'];
+                            }
+                        }
+                    } else {
+                        // Reverse translation (English to French)
+                        let found = false;
+                        for (let frKey in translations) {
+                            if (translations[frKey]['en'] === text) {
+                                node.textContent = frKey;
+                                found = true;
+                                break;
+                            }
+                            // Also try with normalized text
+                            if (normalizeText(translations[frKey]['en']) === normalized) {
+                                node.textContent = frKey;
+                                found = true;
+                                break;
+                            }
+                        }
+                    }
+                }
+            } else if (node.nodeType === Node.ELEMENT_NODE) {
+                // Skip script, style and card-text tags (already handled)
+                if (node.tagName !== 'SCRIPT' && node.tagName !== 'STYLE' && !node.classList.contains('card-text')) {
+                    // Process all child nodes
+                    for (let i = 0; i < node.childNodes.length; i++) {
+                        walkDom(node.childNodes[i]);
+                    }
+                }
+            }
+        };
+
+        walkDom(document.body);
+
+        // Update language button
+        if (langButton) langButton.textContent = lang === 'fr' ? 'EN' : 'FR';
+        localStorage.setItem('lang', lang);
+    }
+
+    // Initialize language on load
+    applyLanguage(savedLang);
+
+    if (langButton) {
+        langButton.addEventListener('click', () => {
+            const current = localStorage.getItem('lang') || 'fr';
+            const next = current === 'fr' ? 'en' : 'fr';
+            applyLanguage(next);
+        });
+    }

@@ -1466,6 +1466,26 @@ body {
 }
 
 /*.isotope-overlay*/
+
+/* Classe pour masquer les projets filtrés avec reflux des colonnes */
+.project-hidden {
+    display: none !important;
+}
+
+/* Rendre la grille responsive en utilisant flex wrapping */
+.isotope {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.isotope .col-sm-4 {
+    display: flex;
+}
+
+.isotope .col-sm-4 .project-item {
+    flex: 1;
+}
+
 .modal {
     display: none;
     position: fixed;
@@ -1686,8 +1706,17 @@ button.next:hover {
 .project-carousel {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: min(80vh, 800px);
     overflow: hidden;
+}
+
+/* Make video inside project modal responsive to modal size */
+.project-video {
+    width: 100%;
+    height: auto;
+    max-height: calc(80vh - 160px);
+    object-fit: contain;
+    display: block;
 }
 
 .project-slide {
